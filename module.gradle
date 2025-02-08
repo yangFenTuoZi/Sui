@@ -13,10 +13,10 @@ ext {
     zygiskModuleId = "zygisk-sui"
 
     moduleName = "Sui"
-    moduleAuthor = "Rikka"
+    moduleAuthor = "yangFenTuoZi & Rikka"
     moduleDescription = "Modern superuser interface implementation."
     moduleVersionMinor = 5
-    moduleVersionPatch = 1
+    moduleVersionPatch = 2
     moduleVersion = "v${api_version_major}.${moduleVersionMinor}.${moduleVersionPatch}"
     moduleVersionCode = gitCommitCount
 
