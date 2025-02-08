@@ -67,6 +67,7 @@ jobs:
           echo 'org.gradle.vfs.watch=true' >> gradle.properties
           echo 'org.gradle.jvmargs=-Xmx2048m' >> gradle.properties
           ./gradlew zipRiruDebug zipRiruRelease zipZygiskDebug zipZygiskRelease
+          find ~/ui/build
       - name: Prepare artifact
         if: success()
         id: prepareArtifact
